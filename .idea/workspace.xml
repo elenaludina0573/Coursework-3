@@ -4,40 +4,149 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50755533-42f6-441a-ad79-573aba5996b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Coursework 3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="50755533-42f6-441a-ad79-573aba5996b3" name="Changes" comment="The file lkz test">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2a2fo3fNZsID4jV50KVPurrWIgR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_utils.test_get_all_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_utils.test_get_executed_only.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_utils.test_get_formated_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_utils.test_get_sort_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_utils.test_hide_requisites.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_utils.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_utils.test_get_formated_operations">
+    <configuration name="Python tests for test_utils.test_get_all_operations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Coursework 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_all_operations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_get_executed_only" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Coursework 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_executed_only&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_get_formated_operations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Coursework 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_formated_operations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_get_sort_operations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Coursework 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_get_sort_operations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_utils.test_hide_requisites" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Coursework 3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_utils.test_hide_requisites&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_utils.test_get_formated_operations" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_hide_requisites" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_get_sort_operations" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_get_executed_only" />
+        <item itemvalue="Python tests.Python tests for test_utils.test_get_all_operations" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,6 +163,151 @@
       <option name="presentableId" value="Default" />
       <updated>1703521766483</updated>
     </task>
+    <task id="LOCAL-00001" summary=".gitignore">
+      <option name="closed" value="true" />
+      <created>1703526993481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703526993481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="File paths">
+      <option name="closed" value="true" />
+      <created>1703533084948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703533084948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="get_all_operations">
+      <option name="closed" value="true" />
+      <created>1703533141630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703533141630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="get_executed_only">
+      <option name="closed" value="true" />
+      <created>1703535906165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703535906165</updated>
+    </task>
+    <task id="LOCAL-00005" summary="get_sort_operations">
+      <option name="closed" value="true" />
+      <created>1703621537380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703621537380</updated>
+    </task>
+    <task id="LOCAL-00006" summary="get_from_date">
+      <option name="closed" value="true" />
+      <created>1703622747373</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703622747373</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hide_requisites">
+      <option name="closed" value="true" />
+      <created>1703623510498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703623510498</updated>
+    </task>
+    <task id="LOCAL-00008" summary="get_formated_operations">
+      <option name="closed" value="true" />
+      <created>1703625564639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703625564639</updated>
+    </task>
+    <task id="LOCAL-00009" summary="The path to the file">
+      <option name="closed" value="true" />
+      <created>1703628130691</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703628130691</updated>
+    </task>
+    <task id="LOCAL-00010" summary="The main code">
+      <option name="closed" value="true" />
+      <created>1703628230832</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703628230832</updated>
+    </task>
+    <task id="LOCAL-00011" summary="operations">
+      <option name="closed" value="true" />
+      <created>1703699891112</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703699891112</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Main c errors">
+      <option name="closed" value="true" />
+      <created>1703700793509</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703700793509</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Utils c errors">
+      <option name="closed" value="true" />
+      <created>1703700822376</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703700822376</updated>
+    </task>
+    <task id="LOCAL-00014" summary="__init__.py">
+      <option name="closed" value="true" />
+      <created>1704136779390</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704136779390</updated>
+    </task>
+    <task id="LOCAL-00015" summary="__init__.py tests">
+      <option name="closed" value="true" />
+      <created>1704136802147</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704136802147</updated>
+    </task>
+    <task id="LOCAL-00016" summary="The file for the test">
+      <option name="closed" value="true" />
+      <created>1704136903502</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704136903502</updated>
+    </task>
+    <task id="LOCAL-00017" summary="The final result">
+      <option name="closed" value="true" />
+      <created>1704137029120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704137029120</updated>
+    </task>
+    <task id="LOCAL-00018" summary="The file lkz test">
+      <option name="closed" value="true" />
+      <created>1704137081788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704137081788</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,5 +320,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".gitignore" />
+    <MESSAGE value="File paths" />
+    <MESSAGE value="get_all_operations" />
+    <MESSAGE value="get_executed_only" />
+    <MESSAGE value="get_sort_operations" />
+    <MESSAGE value="get_from_date" />
+    <MESSAGE value="hide_requisites" />
+    <MESSAGE value="get_formated_operations" />
+    <MESSAGE value="The path to the file" />
+    <MESSAGE value="The main code" />
+    <MESSAGE value="operations" />
+    <MESSAGE value="Main c errors" />
+    <MESSAGE value="Utils c errors" />
+    <MESSAGE value="__init__.py" />
+    <MESSAGE value="__init__.py tests" />
+    <MESSAGE value="The file for the test" />
+    <MESSAGE value="The final result" />
+    <MESSAGE value="The file lkz test" />
+    <option name="LAST_COMMIT_MESSAGE" value="The file lkz test" />
   </component>
 </project>
