@@ -1,75 +1,62 @@
+import datetime
 import json
 
 
 """"
     Функция берет данные из json
 """
-def get_all_operations(path):
-    with open(path, "r", encoding="UTF-8") as file:
-        content = json.load(file)
-        return content
-"""
-    Создаем новый список, убираем все лишнее
-"""
-operation_list = []
-def get_executed_only(operation:list):
-    if {}.get('state') == 'EXECUTED':
-        operation_list.append('state')
-        return operation_list
-
-"""
-    Сортируем список по датам
-"""
-sort_operation_list =[]
-def get_sort_operations(operation:list):
-    get_sort_operations = operation_list.sort(key=lambda x: x.get["date"], reverse=True)
-    sort_operation_list.append('date')
-    return sort_operation_list
-
-"""
-    Функция преобразует дату в нужный формат
-"""
-def get_from_date (operation:list):
-    form_date = int()
-    for date in sort_operation_list:
-        date_1 = date.split('T')
-        date_2 = date_1[0].split('-')
-        form_date = '.'.join(reversed(date_2))
-    return form_date
-
-"""
-   Функция кодирует карту и счет
-"""
-def hide_requisites(requistes:str):
+def get_all_operations(OPERATION_FAIL_PATH):
+    """
+        Функция берет данные из json
+    """
+    with open(OPERATION_FAIL_PATH, "r", encoding="UTF-8") as file:
+        operation = json.load(file)
+        return operation
+def get_executed_only(operation:list)->list:
+    """
+        Создаем новый список, убираем все лишнее
+    """
+    operation_list = [opr for opr in operation if opr != {} and opr["state"] == "EXECUTED"]
+    return operation_list
+def get_sort_operations(operation_list:list)->list:
+    """
+        Сортируем список по датам
+    """
+    sorted_items = sorted(operation_list,reverse=True, key=lambda x: x["date"])
+    return sorted_items
+def hide_requisites(requistes:str)->str:
+    """
+       Функция кодирует карту и счет
+    """
     parts = requistes.split()
     number = parts[-1]
-    if parts.lower().statwith('счет'):
+    check = parts[0]
+    if check.lower() == 'счет':
         hided_number = f"**{number[-4:]}"
     else:
         hided_number = f"{number[:4]} {number[4:6]} ** **** {number[-4:]}"
-        parts[-1] = hided_number
+    parts[-1] = hided_number
     return ' '.join(parts)
-
-"""
-    Функция возвращает всю информацию по операции
-"""
-def get_formated_operations(operation):
-    from_date = get_from_date(operation)
-    type_operation = operation['description']
+def get_formated_operations(operation_list)->str:
+    """
+        Функция возвращает всю информацию по операции
+    """
+    from_date = datetime.datetime.fromisoformat(operation_list['date']).strftime('%d.%m.%y')
+    type_operation = operation_list['description']
     line_one_output = f"{from_date} {type_operation}"
-    if operation.get('from'):
-        hided_from = hide_requisites(operation.get('from'))
+    if from_pay:=operation_list.get('from'):
+        hided_from = hide_requisites(from_pay)
     else:
         hided_from = 'Нет данных'
-    hided_to = hide_requisites(operation.get('to'))
+    hided_to = hide_requisites(operation_list.get('to'))
     line_two_output = f"{hided_from} -->  {hided_to}"
 
-    amount = operation['operationAmount']['amount']
-    currency = operation['operationAmount']['currency']['name']
+    amount = operation_list['operationAmount']['amount']
+    currency = operation_list['operationAmount']['currency']['name']
     line_three_output = f"{amount} {currency}"
-    return (f"{line_one_output}"
-            f"{line_two_output}"
-            f"{line_three_output}")
+    return (f"{line_one_output}\n"
+            f"{line_two_output}\n"
+            f"{line_three_output}\n")
 
 
 
